@@ -1,0 +1,9 @@
+@import '/src/styles/utils/mixins.scss';
+
+.hot{
+    &__list{
+        @include bp-max(lg){
+            grid-template-columns: 1fr;
+        }
+    }
+}

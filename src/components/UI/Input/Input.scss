@@ -1,0 +1,30 @@
+.input {
+  position: relative;
+
+
+  &__field {
+    background: #edeef2;
+    border-radius: 12px;
+    padding: 10px 12px;
+    padding-right: 48px;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    outline: none;
+    border: none;
+    &::placeholder {
+      color: #83859c;
+    }
+    color: #333;
+  }
+
+  &__icon {
+    position: absolute;
+    display: flex;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

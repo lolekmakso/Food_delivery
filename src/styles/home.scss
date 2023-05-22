@@ -1,0 +1,10 @@
+.home{
+    padding: 24px 0;
+
+}
+
+.hot__list{
+    @include bp-max(lg){
+        grid-template-columns: 1fr;
+    }
+}

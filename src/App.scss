@@ -1,0 +1,10 @@
+.container{
+    padding: 0 15px;
+    max-width: 1130px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+@import 'styles/utils/mixins.scss';
+@import 'styles/utils/grid.scss';
+@import 'styles/home.scss';

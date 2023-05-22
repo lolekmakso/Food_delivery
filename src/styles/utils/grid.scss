@@ -1,0 +1,33 @@
+.col-2 {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+
+  @include bp-max(sm) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.col-6 {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  @include bp-max(md) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @include bp-max(sm) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.col-3 {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    @include bp-max(sm) {
+        grid-template-columns: 1fr;
+      }
+  }
