@@ -18,7 +18,11 @@
   }
 
   @include bp-max(sm) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include bp-max(xs) {
+    grid-template-columns: 1fr ;
   }
 }
 

@@ -1,0 +1,45 @@
+.label-item {
+  cursor: pointer;
+  padding: 14px 16px 12px 16px;
+  border: 2px solid #edeef2;
+  border-radius: 16px;
+  text-align: center;
+  height: 80px;
+  transition: all 0.2s ease-out;
+
+  &:active {
+    border: 1px solid #697bff;
+
+    background: #f8f9ff;
+  }
+
+  &:hover {
+    border: 2px solid #4e60ff;
+    background: #f3f4ff;
+
+    .label-item__title {
+      color: #4e60ff;
+    }
+
+    .label-item__img {
+      transform: scale(1.2);
+    }
+  }
+
+  &__img {
+    margin-bottom: 12px;
+    transition: all 0.2s ease-out;
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #545563;
+
+    transition: all 0.2s ease-out;
+  }
+}
